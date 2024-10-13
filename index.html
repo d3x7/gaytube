@@ -1,0 +1,280 @@
+<html>
+ <head>
+  <title>
+   YouTube Video Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #181818;
+            color: #fff;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #202020;
+        }
+        .header .logo {
+            width: 100px;
+        }
+        .header .search-bar {
+            flex-grow: 1;
+            margin: 0 20px;
+        }
+        .header .search-bar input {
+            width: 100%;
+            padding: 5px;
+            border: none;
+            border-radius: 2px;
+        }
+        .header .search-bar button {
+            padding: 5px 10px;
+            border: none;
+            background-color: #303030;
+            color: #fff;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .main-content {
+            display: flex;
+        }
+        .video-section {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .video-section iframe {
+            width: 100%;
+            height: 500px;
+        }
+        .video-details {
+            margin-top: 10px;
+        }
+        .video-details h1 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .video-details .channel-info {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .video-details .channel-info img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .video-details .channel-info .channel-name {
+            font-size: 14px;
+        }
+        .video-details .channel-info .subscribe-button {
+            margin-left: auto;
+            padding: 5px 10px;
+            background-color: #cc0000;
+            color: #fff;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .video-details .video-stats {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .video-details .video-stats .views {
+            margin-right: 20px;
+        }
+        .video-details .video-stats .likes {
+            display: flex;
+            align-items: center;
+        }
+        .video-details .video-stats .likes i {
+            margin-right: 5px;
+        }
+        .video-details .video-description {
+            margin: 10px 0;
+        }
+        .sidebar {
+            width: 300px;
+            background-color: #202020;
+            padding: 20px;
+        }
+        .sidebar .related-videos {
+            margin-bottom: 20px;
+        }
+        .sidebar .related-videos h2 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .sidebar .related-videos .video-item {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .sidebar .related-videos .video-item img {
+            width: 120px;
+            height: 70px;
+            margin-right: 10px;
+        }
+        .sidebar .related-videos .video-item .video-info {
+            flex-grow: 1;
+        }
+        .sidebar .related-videos .video-item .video-info h3 {
+            font-size: 14px;
+            margin: 0;
+        }
+        .sidebar .related-videos .video-item .video-info .channel-name {
+            font-size: 12px;
+            color: #aaa;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <img alt="YouTube Logo" class="logo" height="40" src="https://storage.googleapis.com/a1aa/image/JqfjWp1qiBxJVKzjbKlz3quZpTlO7nc5v5VQyzWuwNfCydmTA.jpg" width="100"/>
+   <div class="search-bar">
+    <input placeholder="Search" type="text"/>
+    <button>
+     <i class="fas fa-search">
+     </i>
+    </button>
+   </div>
+   <div class="user-menu">
+    <i class="fas fa-user-circle fa-2x">
+    </i>
+   </div>
+  </div>
+  <div class="main-content">
+   <div class="video-section">
+    <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+    </iframe>
+    <div class="video-details">
+     <h1>
+      Installing Visual Micro into Visual Studio (with Arduino)
+     </h1>
+     <div class="channel-info">
+      <img alt="Channel Logo" height="40" src="https://storage.googleapis.com/a1aa/image/p6UCurQFpC54NhZehMXztVsfrVI9QhJ3A8X2V03c6Dsfj7MnA.jpg" width="40"/>
+      <div class="channel-name">
+       Visual Micro
+      </div>
+      <button class="subscribe-button">
+       Subscribe
+      </button>
+     </div>
+     <div class="video-stats">
+      <div class="views">
+       71K views • 4 years ago
+      </div>
+      <div class="likes">
+       <i class="fas fa-thumbs-up">
+       </i>
+       297
+      </div>
+     </div>
+     <div class="video-description">
+      <p>
+       Learn how to install the Visual Micro extension for Visual Studio, which allows you to develop Arduino projects within the Visual Studio IDE. Read on for links and more information.
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="sidebar">
+    <div class="related-videos">
+     <h2>
+      Related Videos
+     </h2>
+     <div class="video-item">
+      <img alt="Video Thumbnail" height="70" src="https://storage.googleapis.com/a1aa/image/sfMTJqXRKYS5LipfRQeicE2S9p09ciTtsYKNOcUhPPBDk7MnA.jpg" width="120"/>
+      <div class="video-info">
+       <h3>
+        Installing Arduino Board Packages with Visual Micro
+       </h3>
+       <div class="channel-name">
+        Visual Micro
+       </div>
+      </div>
+     </div>
+     <div class="video-item">
+      <img alt="Video Thumbnail" height="70" src="https://storage.googleapis.com/a1aa/image/sfMTJqXRKYS5LipfRQeicE2S9p09ciTtsYKNOcUhPPBDk7MnA.jpg" width="120"/>
+      <div class="video-info">
+       <h3>
+        Наступит лето (Remix)
+       </h3>
+       <div class="channel-name">
+        Каспий
+       </div>
+      </div>
+     </div>
+     <div class="video-item">
+      <img alt="Video Thumbnail" height="70" src="https://storage.googleapis.com/a1aa/image/sfMTJqXRKYS5LipfRQeicE2S9p09ciTtsYKNOcUhPPBDk7MnA.jpg" width="120"/>
+      <div class="video-info">
+       <h3>
+        Как война напугала Путина и изменила его привычки
+       </h3>
+       <div class="channel-name">
+        Проект
+       </div>
+      </div>
+     </div>
+     <div class="video-item">
+      <img alt="Video Thumbnail" height="70" src="https://storage.googleapis.com/a1aa/image/sfMTJqXRKYS5LipfRQeicE2S9p09ciTtsYKNOcUhPPBDk7MnA.jpg" width="120"/>
+      <div class="video-info">
+       <h3>
+        Дом Путина сравнили с ЗЕМ
+       </h3>
+       <div class="channel-name">
+        Проект
+       </div>
+      </div>
+     </div>
+     <div class="video-item">
+      <img alt="Video Thumbnail" height="70" src="https://storage.googleapis.com/a1aa/image/sfMTJqXRKYS5LipfRQeicE2S9p09ciTtsYKNOcUhPPBDk7MnA.jpg" width="120"/>
+      <div class="video-info">
+       <h3>
+        Бригадир | Белый разбал голову Опера
+       </h3>
+       <div class="channel-name">
+        Проект
+       </div>
+      </div>
+     </div>
+     <div class="video-item">
+      <img alt="Video Thumbnail" height="70" src="https://storage.googleapis.com/a1aa/image/sfMTJqXRKYS5LipfRQeicE2S9p09ciTtsYKNOcUhPPBDk7MnA.jpg" width="120"/>
+      <div class="video-info">
+       <h3>
+        own paradise - lkaes [edit audio]
+       </h3>
+       <div class="channel-name">
+        Saimsist
+       </div>
+      </div>
+     </div>
+     <div class="video-item">
+      <img alt="Video Thumbnail" height="70" src="https://storage.googleapis.com/a1aa/image/sfMTJqXRKYS5LipfRQeicE2S9p09ciTtsYKNOcUhPPBDk7MnA.jpg" width="120"/>
+      <div class="video-info">
+       <h3>
+        Detroit Become Human Все варианты концовок...
+       </h3>
+       <div class="channel-name">
+        vanchester
+       </div>
+      </div>
+     </div>
+     <div class="video-item">
+      <img alt="Video Thumbnail" height="70" src="https://storage.googleapis.com/a1aa/image/sfMTJqXRKYS5LipfRQeicE2S9p09ciTtsYKNOcUhPPBDk7MnA.jpg" width="120"/>
+      <div class="video-info">
+       <h3>
+        Квадрокоптер | Пельмени ЭКСПОЗИЦИЯ
+       </h3>
+       <div class="channel-name">
+        Квадрокоптер
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
